@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2B2B"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="470dp"
+            android:text="首页"
+            android:textColor="#111111"
+            android:textSize="35dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/one" />
+        <TextView
+            android:text="工厂灯光"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/two"
+            android:layout_toRightOf="@id/one"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/two" />
+        <TextView
+            android:text="工厂空调"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/two"
+            android:layout_toRightOf="@id/one"
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/three"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@id/two"
+            android:background="@drawable/three" />
+        <TextView
+            android:text="人才市场"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@id/two"
+            android:layout_below="@id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/four"
+            android:layout_toRightOf="@id/three"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/four" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/four"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="109dp"
+            android:layout_marginTop="13dp"
+            android:layout_toRightOf="@id/three"
+            android:text="自动补人"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/five"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/five" />
+        <TextView
+            android:text="供货列表"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/six"
+            android:layout_toRightOf="@id/five"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/six" />
+        <TextView
+            android:text="购买原材料"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/six"
+            android:layout_toRightOf="@id/five"
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/seven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@id/six"
+            android:background="@drawable/seven" />
+        <TextView
+            android:text="问题车辆仓库"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="100dp"
+            android:layout_toRightOf="@id/six"
+            android:layout_below="@id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/enght"
+            android:layout_toRightOf="@id/seven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="100dp"
+            android:background="@drawable/enght" />
+        <TextView
+            android:text="成品车辆仓库"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/enght"
+            android:layout_toRightOf="@id/seven"
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

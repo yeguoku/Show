@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--导航-->
+    <RelativeLayout
+        android:id="@+id/relayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_goods_name"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="姓名"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_codeBar"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="类型"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_money"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="薪资"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="38dp"
+            android:background="#B4B3B3" />
+        <ImageView
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="450dp"
+            android:layout_height="30dp"
+            android:src="@drawable/top2" />
+        <ImageView
+            android:id="@+id/bon"
+            android:layout_width="wrap_content"
+            android:layout_alignRight="@+id/layout"
+            android:layout_height="30dp"
+            android:layout_marginEnd="50dp"
+            android:src="@drawable/botton2" />
+        <ListView
+            android:layout_below="@id/view6"
+            android:id="@+id/list"
+            android:divider="#B4B3B3"
+            android:dividerHeight="1.0dip"
+            android:scrollbars="none"
+            android:cacheColorHint="@android:color/transparent"
+            android:fadingEdge="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" ></ListView>
+
+    </RelativeLayout>
+</LinearLayout>

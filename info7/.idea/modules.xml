@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1596726839/Show.iml" filepath="$PROJECT_DIR$/.idea/modules/1596726839/Show.iml" group="Show" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1827995063/app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1827995063/app.iml" group="Show/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1139697725/contactstest.iml" filepath="$PROJECT_DIR$/.idea/modules/1139697725/contactstest.iml" group="Show/contactstest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-833193285/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/-833193285/demo.iml" group="Show/demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-924955414/display.iml" filepath="$PROJECT_DIR$/.idea/modules/-924955414/display.iml" group="Show/display" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-833035898/info.iml" filepath="$PROJECT_DIR$/.idea/modules/-833035898/info.iml" group="Show/info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-54309012/info2.iml" filepath="$PROJECT_DIR$/.idea/modules/-54309012/info2.iml" group="Show/info2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-54309011/info3.iml" filepath="$PROJECT_DIR$/.idea/modules/-54309011/info3.iml" group="Show/info3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-54309010/info4.iml" filepath="$PROJECT_DIR$/.idea/modules/-54309010/info4.iml" group="Show/info4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-54309009/info5.iml" filepath="$PROJECT_DIR$/.idea/modules/-54309009/info5.iml" group="Show/info5" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-54309008/info6.iml" filepath="$PROJECT_DIR$/.idea/modules/-54309008/info6.iml" group="Show/info6" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/info7.iml" filepath="$PROJECT_DIR$/.idea/modules/info7.iml" group="Show/info7" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-40968345/litepaltest.iml" filepath="$PROJECT_DIR$/.idea/modules/-40968345/litepaltest.iml" group="Show/litepaltest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-51507823/login.iml" filepath="$PROJECT_DIR$/.idea/modules/-51507823/login.iml" group="Show/login" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/765748505/response.iml" filepath="$PROJECT_DIR$/.idea/modules/765748505/response.iml" group="Show/response" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/308973281/runtimepermissiontest.iml" filepath="$PROJECT_DIR$/.idea/modules/308973281/runtimepermissiontest.iml" group="Show/runtimepermissiontest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1372295135/webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-1372295135/webview.iml" group="Show/webview" />
+    </modules>
+  </component>
+</project>

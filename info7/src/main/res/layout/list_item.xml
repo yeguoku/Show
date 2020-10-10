@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+<!--数据-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_shangpin1"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="商品"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_gongying1"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="价格"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_num1"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="数量"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+
+            <TextView
+                android:id="@+id/text_jiage1"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingTop="10dip"
+                android:paddingBottom="10dip"
+                android:singleLine="true"
+                android:text="供货商"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="fill_parent"
+                android:background="#B4B3B3" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="60dp"
+            android:background="#B4B3B3" />
+
+
+    </RelativeLayout>
+</LinearLayout>

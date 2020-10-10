@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/i"
+            android:layout_marginStart="50dp"
+            android:paddingStart="50dp"
+            android:background="@drawable/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="370dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="供货列表"
+            android:textColor="#0C0202"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <!--导航-->
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:background="#CCCCCC"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#F7F7F7"
+            android:layout_gravity="center"
+            android:id="@+id/relayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="1.5dip"
+                    android:layout_height="fill_parent"
+                    android:background="#B4B3B3" />
+
+                <TextView
+                    android:id="@+id/text_shagnpin"
+                    android:layout_width="0dip"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:singleLine="true"
+                    android:text="商品"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="1.5dip"
+                    android:layout_height="fill_parent"
+                    android:background="#B4B3B3" />
+
+                <TextView
+                    android:id="@+id/text_jiage"
+                    android:layout_width="0dip"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:singleLine="true"
+                    android:text="价格"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+                <View
+                    android:layout_width="1.5dip"
+                    android:layout_height="fill_parent"
+                    android:background="#B4B3B3" />
+
+                <TextView
+                    android:id="@+id/text_num"
+                    android:layout_width="0dip"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:singleLine="true"
+                    android:text="数量"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="1.5dip"
+                    android:layout_height="fill_parent"
+                    android:background="#B4B3B3" />
+
+                <TextView
+                    android:id="@+id/text_gongying"
+                    android:layout_width="0dip"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingTop="10dip"
+                    android:paddingBottom="10dip"
+                    android:singleLine="true"
+                    android:text="供货商"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="1.5dip"
+                    android:layout_height="fill_parent"
+                    android:background="#B4B3B3" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view6"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="70dp"
+                android:background="#B4B3B3" />
+            <ImageView
+                android:id="@+id/top"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="430dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/top2" />
+            <ImageView
+                android:id="@+id/bon"
+                android:layout_width="wrap_content"
+                android:layout_alignRight="@+id/layout"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="280dp"
+                android:src="@drawable/botton2" />
+            <ListView
+                android:layout_below="@id/view6"
+                android:id="@+id/list"
+                android:divider="#B4B3B3"
+                android:dividerHeight="1.0dip"
+                android:scrollbars="none"
+                android:cacheColorHint="@android:color/transparent"
+                android:fadingEdge="none"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" ></ListView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

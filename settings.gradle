@@ -1,0 +1,2 @@
+include ':webview'
+include ':app', ':litepaltest', ':runtimepermissiontest', ':contactstest', ':response', ':login', ':info', ':info2', ':info3', ':info4', ':info5', ':info6', ':info7', ':demo', ':display'
